@@ -20,4 +20,5 @@ include:
     shield: nice_view_gem
   - board: eyelash_sofle_right
     shield: nice_view_gem
-    cmake-args: -DZMK_EXTRA_MODULES=modules/ps2mouse
+    cmake-args: -DZMK_EXTRA_MODULES=modules/kb_zmk_ps2_mouse_trackpoint_driver
+
