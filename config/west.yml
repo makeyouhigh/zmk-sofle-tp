@@ -30,7 +30,6 @@ manifest:
     - name: kb_zmk_ps2_mouse_trackpoint_driver
       remote: infused-kim
       revision: main
-      path: modules/kb_zmk_ps2_mouse_trackpoint_driver
     
   self:
     path: config
