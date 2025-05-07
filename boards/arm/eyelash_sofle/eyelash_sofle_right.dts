@@ -11,8 +11,8 @@
         compatible = "ps2-device";
         label = "PS2_MOUSE";
 
-        ps2-data-gpios = <&gpio1 46 (GPIO_PULL_UP | GPIO_ACTIVE_LOW)>;
-        ps2-clk-gpios  = <&gpio0 20 (GPIO_PULL_UP | GPIO_ACTIVE_LOW)>;
+        ps2-data-gpios = <&gpio1 46 (GPIO_PULL_UP)>;
+        ps2-clk-gpios  = <&gpio0 20 (GPIO_PULL_UP)>;
 
         interrupt-priority = <1>;
 
