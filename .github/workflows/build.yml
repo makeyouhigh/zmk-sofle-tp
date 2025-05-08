@@ -1,48 +1,10 @@
-#name: Build ZMK firmware
-#on:
-#  workflow_dispatch:
-#  push:
-#    paths-ignore:
-#      - "keymap-drawer/**"
-#
-#jobs:
-#  build:
-#    uses: zmkfirmware/zmk/.github/workflows/build-user-config.yml@main
 name: Build ZMK firmware
 on:
+  workflow_dispatch:
   push:
     paths-ignore:
       - "keymap-drawer/**"
-  workflow_dispatch:
 
 jobs:
   build:
-    runs-on: ubuntu-latest
-    strategy:
-      matrix:
-        board: [eyelash_sofle_left, eyelash_sofle_right]
-        shield: [nice_view_gem]
-
-    steps:
-      - name: Checkout zmk-config
-        uses: actions/checkout@v3
-
-      - name: Install West & Zephyr SDK
-        run: |
-          pip install west
-          # (필요하다면 Zephyr SDK 설치 스크립트도 여기에)
-
-      - name: Init & Update West manifest
-        run: |
-          west init -l config
-          west update
-          west zephyr-export
-
-      - name: Build ZMK firmware for ${{ matrix.board }}
-        run: |
-          west build -s zmk/app \
-            -b ${{ matrix.board }} \
-            -- \
-            -DZMK_CONFIG=config \
-            -DSHIELD=${{ matrix.shield }}
-
+    uses: zmkfirmware/zmk/.github/workflows/build-user-config.yml@main
