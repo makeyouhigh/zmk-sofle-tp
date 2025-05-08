@@ -1,4 +1,4 @@
-#include "physical_layouts.dtsi"
+#include "/__w/zmk-sofle-tp/boards/arm/eyelash_sofle/physical_layouts.dtsi"
 
 
 / {
