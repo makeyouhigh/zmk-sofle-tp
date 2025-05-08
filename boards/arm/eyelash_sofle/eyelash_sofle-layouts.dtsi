@@ -1,5 +1,6 @@
 #include "physical_layouts.dtsi"
 
+
 / {
     eyelash_sofle_layout: eyelash_sofle_layout {
         compatible = "zmk,physical-layout";
