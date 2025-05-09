@@ -1,17 +1,17 @@
 #include "eyelash_sofle.dtsi"
 #define MOUSE_PS2_DRIVER_UART
 
-#define MOUSE_PS2_PIN_SCL_PRO_MICRO <&gpio1 7 GPIO_ACTIVE_HIGH>
-#define MOUSE_PS2_PIN_SDA_PRO_MICRO <&gpio1 8 GPIO_ACTIVE_HIGH>
+//#define MOUSE_PS2_PIN_SCL_PRO_MICRO <&gpio1 7 GPIO_ACTIVE_HIGH>
+//#define MOUSE_PS2_PIN_SDA_PRO_MICRO <&gpio1 8 GPIO_ACTIVE_HIGH>
 // #define MOUSE_PS2_PIN_RST_PRO_MICRO <&gpio1 4 GPIO_ACTIVE_HIGH>  // Optional, change/remove if not used
-#define MOUSE_PS2_PIN_SDA_PINCTRL <NRF_PSEL(UART_RX, 1, 8)>
+//#define MOUSE_PS2_PIN_SDA_PINCTRL <NRF_PSEL(UART_RX, 1, 8)>
 
-#define MOUSE_PS2_UART_BAUD_RATE <14400>
+/#define MOUSE_PS2_UART_BAUD_RATE <14400>
 
-#define MOUSE_PS2_PIN_UNEXPOSED_TX <NRF_PSEL(UART_TX, 1, 05)>
-#define MOUSE_PS2_PIN_UNEXPOSED_RX <NRF_PSEL(UART_RX, 1, 06)>
+//#define MOUSE_PS2_PIN_UNEXPOSED_TX <NRF_PSEL(UART_TX, 1, 05)>
+//#define MOUSE_PS2_PIN_UNEXPOSED_RX <NRF_PSEL(UART_RX, 1, 06)>
 
-#define MOUSE_PS2_DT_PRESENT
+//#define MOUSE_PS2_DT_PRESENT
 
 // All other priorities should be two levels lower than their defaults
 // (which is usually 1 and should be demoted to 3)
