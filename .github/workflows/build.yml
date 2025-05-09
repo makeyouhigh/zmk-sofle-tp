@@ -8,3 +8,34 @@ on:
 jobs:
   build:
     uses: zmkfirmware/zmk/.github/workflows/build-user-config.yml@main
+
+  extract-dts:
+    name: Extract zephyr.dts
+    needs: build
+    runs-on: ubuntu-latest
+    if: always() # 빌드 실패해도 dts 추출 시도
+
+    steps:
+      - name: Checkout repo
+        uses: actions/checkout@v3
+
+      - name: Download build artifacts
+        uses: actions/download-artifact@v3
+        with:
+          name: firmware
+          path: firmware
+
+      - name: Unzip build archive
+        run: |
+          mkdir -p output_debug
+          unzip firmware/*.zip -d output_debug
+
+      - name: Find and copy zephyr.dts
+        run: |
+          find output_debug -name zephyr.dts -exec cp {} zephyr.dts \;
+
+      - name: Upload zephyr.dts
+        uses: actions/upload-artifact@v3
+        with:
+          name: zephyr-dts-debug
+          path: zephyr.dts
