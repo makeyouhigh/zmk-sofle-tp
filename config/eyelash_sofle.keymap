@@ -14,10 +14,10 @@
 #define ARROW_R 1
 #define NUMPAD_R 2
 #define MOUSE_R 3
-#define SYM_R 4
+// #define SYM_R 4
 // #define FUNCTION_R 5
 // #define ARROW_L 6
-// #define SYSTEM 7
+#define SYSTEM 7
 #define MouseKeys 8
 #define MouseTP 9
 #define TPSet 10
@@ -183,7 +183,7 @@
 &lt 1 TAB   &kp Q                 &kp W                 &kp E              &kp R                   &kp T        &kp DOWN_ARROW   &kp Y        &kp U                   &kp I              &kp O                 &kp P                    &mt BACKSLASH DELETE
 &CTRL_CAPS  &HOME_ROW LEFT_GUI A  &HOME_ROW LEFT_ALT S  &HOME_ROW LCTRL D  &HOME_ROW LEFT_SHIFT F  &kp G        &kp LEFT_ARROW   &kp H        &HOME_ROW LEFT_SHIFT J  &HOME_ROW LCTRL K  &HOME_ROW LEFT_ALT L  &HOME_ROW LEFT_GUI SEMI  &kp ENTER
 &kp LSHFT   &kp Z                 &kp X                 &kp C              &kp V                   &kp B        &kp RIGHT_ARROW  &kp N        &kp M                   &kp COMMA          &kp DOT               &kp FSLH                 &kp RSHIFT
-&kp C_MUTE  &mt LCTRL CAPSLOCK    &kp LEFT_ALT          &lt 1 ESCAPE       &lt 2 SPACE             &lt 3 TAB    &kp ENTER        &lt 4 ENTER  &lt 5 SPACE             &lt 6 BACKSPACE    &kp RIGHT_ALT         &kp RCTRL
+&kp C_MUTE  &mt LCTRL CAPSLOCK    &kp LEFT_ALT          &lt 1 ESCAPE       &lt 2 SPACE             &lt 3 TAB    &kp ENTER        &lt 3 ENTER  &lt 3 SPACE             &lt 3 BACKSPACE    &kp RIGHT_ALT         &kp RCTRL
             >;
 
             sensor-bindings = <&scroll_encoder>;
