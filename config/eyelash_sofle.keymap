@@ -273,7 +273,7 @@
 #ifdef HAS_MOUSE_KEYS
 
 		MouseKeys_layer {
-			lable = "MouseKeys";
+			label = "MouseKeys";
 			display-name = "MouseKeys";
 			bindings = <
 &none                    &none                    &none                    &none                    &none                    &none                    &none                    &none                    &none                    &none                    &none                    &none                     &none
@@ -289,7 +289,7 @@ U_TOG_TP_SET             U_TOG_TP_SET             &none                    &mmv 
 
 #ifdef HAS_MOUSE_TP
 		MouseTP_layer {
-			lable = "TP";
+			label = "TP";
 			display-name = "TP";
 			bindings = <
 &none                    &none                    &none                    &none                    &none                    &none                    &none                    &none                    &none                    &none                    &none                    &none                    &none
@@ -302,7 +302,7 @@ U_TOG_TP_SET             U_TOG_TP_SET             &trans                   &tran
 
 
 		MouseSettings_layer {
-			lable = "TP Set";
+			label = "TP Set";
 			display-name = "TP Set";
 			bindings = <
 &none                    &none                    &none                    &none                    &none                    &none                    &none                    &none                    &none                    &none                    &none                    &none                    &none
