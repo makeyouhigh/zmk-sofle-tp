@@ -1,4 +1,5 @@
-#include "boards/arm/eyelash_sofle/eyelash_sofle.dtsi"
+#include <boards/arm/eyelash_sofle/eyelash_sofle.dtsi>
+
 #define MOUSE_PS2_DRIVER_UART
 
 #define MOUSE_PS2_PIN_SCL_PRO_MICRO <&gpio1 7 GPIO_ACTIVE_HIGH>
