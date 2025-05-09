@@ -9,33 +9,32 @@ jobs:
   build:
     uses: zmkfirmware/zmk/.github/workflows/build-user-config.yml@main
 
-  extract-dts:
-    name: Extract zephyr.dts
-    needs: build
+  build-dts:
     runs-on: ubuntu-latest
-    if: always() # 빌드 실패해도 dts 추출 시도
-
     steps:
-      - name: Checkout repo
+      - name: Checkout user config
         uses: actions/checkout@v3
 
-      - name: Download build artifacts
-        uses: actions/download-artifact@v3
+      - name: Set up Python
+        uses: actions/setup-python@v4
         with:
-          name: firmware
-          path: firmware
+          python-version: "3.11"
 
-      - name: Unzip build archive
+      - name: Install west
+        run: pip install --upgrade west
+
+      - name: Init west and update
         run: |
-          mkdir -p output_debug
-          unzip firmware/*.zip -d output_debug
+          west init -l config
+          west update
+          west zephyr-export
 
-      - name: Find and copy zephyr.dts
+      - name: Build (Right side only) to extract DTS
         run: |
-          find output_debug -name zephyr.dts -exec cp {} zephyr.dts \;
+          west build -s zmk/app -d build/right -b eyelash_sofle_right -- -DSHIELD=nice_view_custom -DZMK_CONFIG=$(pwd)/config
 
-      - name: Upload zephyr.dts
+      - name: Upload DTS file
         uses: actions/upload-artifact@v3
         with:
-          name: zephyr-dts-debug
-          path: zephyr.dts
+          name: right-zephyr-dts
+          path: build/right/zephyr/zephyr.dts
