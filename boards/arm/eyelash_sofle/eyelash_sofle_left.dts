@@ -22,6 +22,10 @@
     status = "okay";
 
 };
-&mouse_ps2_input_listener {
-    status = "okay";
+/ {
+	mouse_ps2_input_listener: mouse_ps2_input_listener {
+		status = "disabled";
+		compatible = "zmk,input-listener-ps2";
+		device = <&mouse_ps2>;
+	};
 };
