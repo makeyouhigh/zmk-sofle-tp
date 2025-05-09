@@ -1,4 +1,4 @@
-#include <boards/arm/eyelash_sofle/eyelash_sofle.dtsi>
+#include "eyelash_sofle.dtsi"
 
 #define MOUSE_PS2_DRIVER_UART
 
