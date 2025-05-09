@@ -11,7 +11,7 @@
 #include <dt-bindings/zmk/matrix_transform.h>
 
 #include "eyelash_sofle-layouts.dtsi"
-//#define MOUSE_PS2_DRIVER_UART
+#define MOUSE_PS2_DRIVER_UART
 
 / {
     model = "eyelash_sofle";
