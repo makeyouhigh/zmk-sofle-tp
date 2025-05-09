@@ -8,33 +8,3 @@ on:
 jobs:
   build:
     uses: zmkfirmware/zmk/.github/workflows/build-user-config.yml@main
-
-  build-dts:
-    runs-on: ubuntu-latest
-    steps:
-      - name: Checkout user config
-        uses: actions/checkout@v3
-
-      - name: Set up Python
-        uses: actions/setup-python@v4
-        with:
-          python-version: "3.11"
-
-      - name: Install west
-        run: pip install --upgrade west
-
-      - name: Init west and update
-        run: |
-          west init -l config
-          west update
-          west zephyr-export
-
-      - name: Build (Right side only) to extract DTS
-        run: |
-          west build -s zmk/app -d build/right -b eyelash_sofle_right -- -DSHIELD=nice_view_custom -DZMK_CONFIG=$(pwd)/config
-
-      - name: Upload DTS file
-        uses: actions/upload-artifact@v3
-        with:
-          name: right-zephyr-dts
-          path: build/right/zephyr/zephyr.dts
