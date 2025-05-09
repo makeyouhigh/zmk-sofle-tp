@@ -31,7 +31,7 @@
 #endif  // HAS_MOUSE_KEYS
 
 #ifdef HAS_MOUSE_TP
-  #define U_TOG_TP_SET &tog TP_Set
+  #define U_TOG_TP_SET &tog TPSet
 #else
   #define U_TOG_TP_SET &none
 #endif  // HAS_MOUSE_TP
@@ -303,7 +303,7 @@ U_TOG_TP_SET             U_TOG_TP_SET             &trans                   &tran
 
 		MouseSettings_layer {
 			label = "TP_Set";
-			display-name = "TP_Set";
+			display-name = "TPSet";
 			bindings = <
 &none                    &none                    &none                    &none                    &none                    &none                    &none                    &none                    &none                    &none                    &none                    &none                    &none
 U_TOG_TP_SET             U_TOG_TP_SET             &none                    U_MSS_TP_S_D             U_MSS_TP_S_I             U_MSS_TP_PT_I            &none                    U_MSS_TP_PT_I            U_MSS_TP_S_D             U_MSS_TP_S_I             &none                    U_TOG_TP_SET             U_TOG_TP_SET
