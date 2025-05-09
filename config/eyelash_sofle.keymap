@@ -15,9 +15,9 @@
 #define NUMPAD_R 2
 #define MOUSE_R 3
 #define SYM_R 4
-#define FUNCTION_R 5
-#define ARROW_L 6
-#define SYSTEM 7
+// #define FUNCTION_R 5
+// #define ARROW_L 6
+// #define SYSTEM 7
 #define MouseKeys 8
 #define MouseTP 9
 #define TPSet 10
