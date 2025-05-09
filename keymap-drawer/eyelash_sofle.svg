@@ -4052,8 +4052,8 @@ rect.held, rect.combo.held {
 </g>
 </g>
 </g>
-<g transform="translate(40, 3494)" class="layer-MouseTPTP">
-<text x="0" y="28" class="label" id="MouseTPTP">MouseTPTP:</text>
+<g transform="translate(40, 3494)" class="layer-MouseTP">
+<text x="0" y="28" class="label" id="MouseTP">MouseTP:</text>
 <g transform="translate(0, 56)">
 <g transform="translate(28, 56)" class="key none keypos-0">
 <rect rx="6" ry="6" x="-26" y="-26" width="52" height="52" class="key none side"/>
