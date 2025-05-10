@@ -1,6 +1,4 @@
 #include <physical_layouts.dtsi>
-#include <mouse_tp.dtsi>
-
 
 / {
     eyelash_sofle_layout: eyelash_sofle_layout {
