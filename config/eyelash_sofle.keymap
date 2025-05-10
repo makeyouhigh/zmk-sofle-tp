@@ -9,7 +9,6 @@
 #include <dt-bindings/zmk/outputs.h>
 #include <dt-bindings/zmk/pointing.h>
 #include <dt-bindings/zmk/rgb.h>
-#include "include/mouse_tp.dtsi"
 
 #define ALPHA 0
 #define ARROW_R 1
@@ -28,6 +27,7 @@
 #ifdef HAS_MOUSE_KEYS
   #include <dt-bindings/zmk/mouse.h>
   #include <behaviors/mouse_keys.dtsi>
+  #include "include/mouse_tp.dtsi"
 #endif  // HAS_MOUSE_KEYS
 
 #ifdef HAS_MOUSE_TP
