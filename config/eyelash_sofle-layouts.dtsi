@@ -1,5 +1,5 @@
 #include <physical_layouts.dtsi>
-#include <mouse_tp.dtsi>
+#include "mouse_tp.dtsi"
 
 
 / {
