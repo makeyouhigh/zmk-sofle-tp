@@ -30,6 +30,7 @@
 #ifdef HAS_MOUSE_KEYS
   #include <dt-bindings/zmk/mouse.h>
   #include <behaviors/mouse_keys.dtsi>
+  #include <mouse_tp.dtsi>
 #endif  // HAS_MOUSE_KEYS
 
 #ifdef HAS_MOUSE_TP
