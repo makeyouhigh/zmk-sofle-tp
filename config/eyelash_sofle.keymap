@@ -263,9 +263,9 @@ U_TOG_TP_SET             U_TOG_TP_SET             &none                    &mmv 
 #endif
 
 #ifdef HAS_MOUSE_TP
-		MouseTP {
-			label = "MouseTP";
-			display-name = "MouseTP";
+		MOUSE_TP {
+			label = "MOUSE_TP";
+			display-name = "MOUSE_TP";
 			bindings = <
 &none                    &none                    &none                    &none                    &none                    &none                    &none                    &none                    &none                    &none                    &none                    &none                    &none
 U_TOG_TP_SET             U_TOG_TP_SET             &trans                   &trans                   &msc SCRL_UP             &trans                   &none                    &trans                   &trans                   &trans                   &trans                   U_TOG_TP_SET             U_TOG_TP_SET
@@ -273,7 +273,7 @@ U_TOG_TP_SET             U_TOG_TP_SET             &trans                   &tran
 &trans                   &trans                   &trans                   &trans                   &msc SCRL_DOWN           &trans                   &none                    &trans                   &trans                   &trans                   &trans                   &trans                   &trans
 &none                    &none                    &none                    &mkp MCLK                &mkp LCLK                &mkp RCLK                &none                    &mkp MCLK                &mkp LCLK                &mkp RCLK                &none                    &none
 			>;
-            label = "MouseTP";
+            label = "MOUSE_TP";
 		};
 
 		TPSet {
