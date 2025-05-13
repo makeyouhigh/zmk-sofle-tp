@@ -183,7 +183,6 @@
 &kp LSHFT   &kp Z                 &kp X                 &kp C              &kp V                   &kp B        &kp RIGHT_ARROW  &kp N        &kp M                   &kp COMMA          &kp DOT               &kp FSLH                 &kp RSHIFT
 &kp C_MUTE  &mt LCTRL CAPSLOCK    &kp LEFT_ALT          &lt 1 ESCAPE       &lt 2 SPACE             &lt 3 TAB    &kp ENTER        &lt 4 ENTER  &lt 5 SPACE             &lt 6 BACKSPACE    &kp RIGHT_ALT         &kp RCTRL
             >;
-
             sensor-bindings = <&scroll_encoder>;
             display-name = "ALPHA";
             label = "ALPHA";
@@ -197,7 +196,6 @@
 &trans     &trans   &trans  &trans  &trans  &trans    &trans  &kp LC(LA(V))  &kp LC(V)    &kp LC(C)   &kp LC(X)      &kp LC(Z)       &kp LC(Y)
 &trans     &trans   &trans  &trans  &trans  &trans    &trans  &trans         &trans       &kp DELETE  &trans         &trans
             >;
-
             display-name = "ARROW_R";
             sensor-bindings = <&inc_dec_kp C_VOLUME_UP C_VOLUME_DOWN>;
             label = "ARROW_R";
@@ -211,7 +209,6 @@
 &trans  &trans  &trans  &trans  &trans  &trans    &trans  &kp PERIOD  &kp KP_NUMBER_1  &kp KP_NUMBER_2  &kp KP_NUMBER_3  &kp KP_PLUS           &kp KP_MINUS
 &trans  &trans  &trans  &trans  &trans  &trans    &trans  &kp ENTER   &kp BACKSPACE    &kp KP_NUMBER_0  &kp PERIOD       &kp COMMA
             >;
-
             sensor-bindings = <&inc_dec_kp C_VOLUME_UP C_VOLUME_DOWN>;
             label = "NUMPAD_R";
         };
@@ -226,7 +223,6 @@
 &trans     &trans  &trans  &trans  &trans  &trans    &mmv MOVE_RIGHT  &kp LC(LA(V))    &kp LC(V)       &kp LC(C)       &kp LC(C)        &kp LC(Z)       &kp LC(Y)
 &trans     &trans  &trans  &trans  &trans  &trans    &mkp LCLK        &mkp LCLK        &mkp MCLK       &mkp RCLK       &trans           &trans
             >;
-
             sensor-bindings = <&scroll_encoder>;
         };
 
@@ -239,7 +235,6 @@
 &rgb_ug RGB_OFF  &rgb_ug RGB_HUD  &rgb_ug RGB_SAD  &rgb_ug RGB_BRD  &rgb_ug RGB_SPD  &rgb_ug RGB_EFR    &none  &none      &none       &none        &none  &none         &none
 &none            &out OUT_TOG     &to 0            &bootloader      &sys_reset       &soft_off          &none  &soft_off  &sys_reset  &bootloader  &to 0  &out OUT_TOG
             >;
-
             label = "SYSTEM";
         };
 
