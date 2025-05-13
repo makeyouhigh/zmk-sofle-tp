@@ -339,8 +339,8 @@ layers:
   - {t: '$$mdi:minus-circle-outline$$', type: none}
   - {t: '$$mdi:minus-circle-outline$$', type: none}
   - {t: '$$mdi:minus-circle-outline$$', type: none}
-  - {t: TPSet, h: toggle}
-  - {t: TPSet, h: toggle}
+  - {t: TP_Set, h: toggle}
+  - {t: TP_Set, h: toggle}
   - {t: '$$mdi:minus-circle-outline$$', type: none}
   - {t: '$$mdi:menu-up$$', s: '$$mdi:mouse$$'}
   - $$mdi:pan-up$$
@@ -350,8 +350,8 @@ layers:
   - $$mdi:pan-up$$
   - {t: '$$mdi:menu-up$$', s: '$$mdi:mouse$$'}
   - {t: '$$mdi:minus-circle-outline$$', type: none}
-  - {t: TPSet, h: toggle}
-  - {t: TPSet, h: toggle}
+  - {t: TP_Set, h: toggle}
+  - {t: TP_Set, h: toggle}
   - {t: '$$mdi:minus-circle-outline$$', type: none}
   - {t: '$$mdi:minus-circle-outline$$', type: none}
   - {t: '$$mdi:menu-left$$', s: '$$mdi:mouse$$'}
@@ -404,8 +404,8 @@ layers:
   - {t: '$$mdi:minus-circle-outline$$', type: none}
   - {t: '$$mdi:minus-circle-outline$$', type: none}
   - {t: '$$mdi:minus-circle-outline$$', type: none}
-  - {t: TPSet, h: toggle}
-  - {t: TPSet, h: toggle}
+  - {t: TP_Set, h: toggle}
+  - {t: TP_Set, h: toggle}
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
   - $$mdi:pan-up$$
@@ -415,8 +415,8 @@ layers:
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
-  - {t: TPSet, h: toggle}
-  - {t: TPSet, h: toggle}
+  - {t: TP_Set, h: toggle}
+  - {t: TP_Set, h: toggle}
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
@@ -455,7 +455,7 @@ layers:
   - {t: '$$mdi:mouse-right-click-outline$$', type: held}
   - {t: '$$mdi:minus-circle-outline$$', type: none}
   - {t: '$$mdi:minus-circle-outline$$', type: none}
-  TPSet:
+  TP_Set:
   - {t: '$$mdi:minus-circle-outline$$', type: none}
   - {t: '$$mdi:minus-circle-outline$$', type: none}
   - {t: '$$mdi:minus-circle-outline$$', type: none}
@@ -469,8 +469,8 @@ layers:
   - {t: '$$mdi:minus-circle-outline$$', type: none}
   - {t: '$$mdi:minus-circle-outline$$', type: none}
   - {t: '$$mdi:minus-circle-outline$$', type: none}
-  - {t: TPSet, h: toggle}
-  - {t: TPSet, h: toggle}
+  - {t: TP_Set, h: toggle}
+  - {t: TP_Set, h: toggle}
   - {t: '$$mdi:minus-circle-outline$$', type: none}
   - '&mms MS_TP_SENSITIVITY_DECR'
   - '&mms MS_TP_SENSITIVITY_INCR'
@@ -480,8 +480,8 @@ layers:
   - '&mms MS_TP_SENSITIVITY_DECR'
   - '&mms MS_TP_SENSITIVITY_INCR'
   - {t: '$$mdi:minus-circle-outline$$', type: none}
-  - {t: TPSet, h: toggle}
-  - {t: TPSet, h: toggle}
+  - {t: TP_Set, h: toggle}
+  - {t: TP_Set, h: toggle}
   - '&mms MS_RESET'
   - '&mms MS_RESET'
   - {t: '$$mdi:minus-circle-outline$$', type: none}
@@ -522,9 +522,9 @@ layers:
   - {t: '$$mdi:minus-circle-outline$$', type: none}
 combos:
 - p: [57, 18]
-  k: {t: TPSet, h: toggle}
+  k: {t: TP_Set, h: toggle}
 - p: [59, 20]
-  k: {t: TPSet, h: toggle}
+  k: {t: TP_Set, h: toggle}
 - p: [18, 31]
   k: $$mdi:apple-keyboard-option$$
 - p: [20, 33]

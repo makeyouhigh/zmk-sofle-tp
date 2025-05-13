@@ -682,16 +682,16 @@ rect.held, rect.combo.held {
 <path d="M349,192 l34,84" class="combo"/>
 <path d="M349,192 l-34,-84" class="combo"/>
 <rect rx="6" ry="6" x="335" y="180" width="28" height="26" class="combo"/>
-<a href="#TPSet">
-<text x="349" y="192" class="combo tap layer-activator">TPSet</text>
+<a href="#TP_Set">
+<text x="349" y="192" class="combo tap layer-activator">TP_Set</text>
 </a><text x="349" y="204" class="combo hold">toggle</text>
 </g>
 <g class="combo combopos-1">
 <path d="M575,192 l-34,84" class="combo"/>
 <path d="M575,192 l34,-84" class="combo"/>
 <rect rx="6" ry="6" x="561" y="180" width="28" height="26" class="combo"/>
-<a href="#TPSet">
-<text x="575" y="192" class="combo tap layer-activator">TPSet</text>
+<a href="#TP_Set">
+<text x="575" y="192" class="combo tap layer-activator">TP_Set</text>
 </a><text x="575" y="204" class="combo hold">toggle</text>
 </g>
 <g class="combo combopos-2">
@@ -1085,16 +1085,16 @@ rect.held, rect.combo.held {
 <path d="M349,192 l34,84" class="combo"/>
 <path d="M349,192 l-34,-84" class="combo"/>
 <rect rx="6" ry="6" x="335" y="180" width="28" height="26" class="combo"/>
-<a href="#TPSet">
-<text x="349" y="192" class="combo tap layer-activator">TPSet</text>
+<a href="#TP_Set">
+<text x="349" y="192" class="combo tap layer-activator">TP_Set</text>
 </a><text x="349" y="204" class="combo hold">toggle</text>
 </g>
 <g class="combo combopos-1">
 <path d="M575,192 l-34,84" class="combo"/>
 <path d="M575,192 l34,-84" class="combo"/>
 <rect rx="6" ry="6" x="561" y="180" width="28" height="26" class="combo"/>
-<a href="#TPSet">
-<text x="575" y="192" class="combo tap layer-activator">TPSet</text>
+<a href="#TP_Set">
+<text x="575" y="192" class="combo tap layer-activator">TP_Set</text>
 </a><text x="575" y="204" class="combo hold">toggle</text>
 </g>
 <g class="combo combopos-2">
@@ -1515,16 +1515,16 @@ rect.held, rect.combo.held {
 <path d="M349,192 l34,84" class="combo"/>
 <path d="M349,192 l-34,-84" class="combo"/>
 <rect rx="6" ry="6" x="335" y="180" width="28" height="26" class="combo"/>
-<a href="#TPSet">
-<text x="349" y="192" class="combo tap layer-activator">TPSet</text>
+<a href="#TP_Set">
+<text x="349" y="192" class="combo tap layer-activator">TP_Set</text>
 </a><text x="349" y="204" class="combo hold">toggle</text>
 </g>
 <g class="combo combopos-1">
 <path d="M575,192 l-34,84" class="combo"/>
 <path d="M575,192 l34,-84" class="combo"/>
 <rect rx="6" ry="6" x="561" y="180" width="28" height="26" class="combo"/>
-<a href="#TPSet">
-<text x="575" y="192" class="combo tap layer-activator">TPSet</text>
+<a href="#TP_Set">
+<text x="575" y="192" class="combo tap layer-activator">TP_Set</text>
 </a><text x="575" y="204" class="combo hold">toggle</text>
 </g>
 <g class="combo combopos-2">
@@ -1924,16 +1924,16 @@ rect.held, rect.combo.held {
 <path d="M349,192 l34,84" class="combo"/>
 <path d="M349,192 l-34,-84" class="combo"/>
 <rect rx="6" ry="6" x="335" y="180" width="28" height="26" class="combo"/>
-<a href="#TPSet">
-<text x="349" y="192" class="combo tap layer-activator">TPSet</text>
+<a href="#TP_Set">
+<text x="349" y="192" class="combo tap layer-activator">TP_Set</text>
 </a><text x="349" y="204" class="combo hold">toggle</text>
 </g>
 <g class="combo combopos-1">
 <path d="M575,192 l-34,84" class="combo"/>
 <path d="M575,192 l34,-84" class="combo"/>
 <rect rx="6" ry="6" x="561" y="180" width="28" height="26" class="combo"/>
-<a href="#TPSet">
-<text x="575" y="192" class="combo tap layer-activator">TPSet</text>
+<a href="#TP_Set">
+<text x="575" y="192" class="combo tap layer-activator">TP_Set</text>
 </a><text x="575" y="204" class="combo hold">toggle</text>
 </g>
 <g class="combo combopos-2">
@@ -2361,16 +2361,16 @@ rect.held, rect.combo.held {
 <path d="M349,192 l34,84" class="combo"/>
 <path d="M349,192 l-34,-84" class="combo"/>
 <rect rx="6" ry="6" x="335" y="180" width="28" height="26" class="combo"/>
-<a href="#TPSet">
-<text x="349" y="192" class="combo tap layer-activator">TPSet</text>
+<a href="#TP_Set">
+<text x="349" y="192" class="combo tap layer-activator">TP_Set</text>
 </a><text x="349" y="204" class="combo hold">toggle</text>
 </g>
 <g class="combo combopos-1">
 <path d="M575,192 l-34,84" class="combo"/>
 <path d="M575,192 l34,-84" class="combo"/>
 <rect rx="6" ry="6" x="561" y="180" width="28" height="26" class="combo"/>
-<a href="#TPSet">
-<text x="575" y="192" class="combo tap layer-activator">TPSet</text>
+<a href="#TP_Set">
+<text x="575" y="192" class="combo tap layer-activator">TP_Set</text>
 </a><text x="575" y="204" class="combo hold">toggle</text>
 </g>
 <g class="combo combopos-2">
@@ -2505,15 +2505,15 @@ rect.held, rect.combo.held {
 <g transform="translate(28, 112)" class="key keypos-13">
 <rect rx="6" ry="6" x="-26" y="-26" width="52" height="52" class="key side"/>
 <rect rx="4" ry="4" x="-20" y="-24" width="40" height="40" class="key"/>
-<a href="#TPSet">
-<text x="0" y="-4" class="key tap layer-activator">TPSet</text>
+<a href="#TP_Set">
+<text x="0" y="-4" class="key tap layer-activator">TP_Set</text>
 </a><text x="0" y="24" class="key hold">toggle</text>
 </g>
 <g transform="translate(84, 112)" class="key keypos-14">
 <rect rx="6" ry="6" x="-26" y="-26" width="52" height="52" class="key side"/>
 <rect rx="4" ry="4" x="-20" y="-24" width="40" height="40" class="key"/>
-<a href="#TPSet">
-<text x="0" y="-4" class="key tap layer-activator">TPSet</text>
+<a href="#TP_Set">
+<text x="0" y="-4" class="key tap layer-activator">TP_Set</text>
 </a><text x="0" y="24" class="key hold">toggle</text>
 </g>
 <g transform="translate(140, 91)" class="key none keypos-15">
@@ -2566,15 +2566,15 @@ rect.held, rect.combo.held {
 <g transform="translate(840, 112)" class="key keypos-24">
 <rect rx="6" ry="6" x="-26" y="-26" width="52" height="52" class="key side"/>
 <rect rx="4" ry="4" x="-20" y="-24" width="40" height="40" class="key"/>
-<a href="#TPSet">
-<text x="0" y="-4" class="key tap layer-activator">TPSet</text>
+<a href="#TP_Set">
+<text x="0" y="-4" class="key tap layer-activator">TP_Set</text>
 </a><text x="0" y="24" class="key hold">toggle</text>
 </g>
 <g transform="translate(896, 112)" class="key keypos-25">
 <rect rx="6" ry="6" x="-26" y="-26" width="52" height="52" class="key side"/>
 <rect rx="4" ry="4" x="-20" y="-24" width="40" height="40" class="key"/>
-<a href="#TPSet">
-<text x="0" y="-4" class="key tap layer-activator">TPSet</text>
+<a href="#TP_Set">
+<text x="0" y="-4" class="key tap layer-activator">TP_Set</text>
 </a><text x="0" y="24" class="key hold">toggle</text>
 </g>
 <g transform="translate(28, 168)" class="key none keypos-26">
@@ -2777,16 +2777,16 @@ rect.held, rect.combo.held {
 <path d="M349,192 l34,84" class="combo"/>
 <path d="M349,192 l-34,-84" class="combo"/>
 <rect rx="6" ry="6" x="335" y="180" width="28" height="26" class="combo"/>
-<a href="#TPSet">
-<text x="349" y="192" class="combo tap layer-activator">TPSet</text>
+<a href="#TP_Set">
+<text x="349" y="192" class="combo tap layer-activator">TP_Set</text>
 </a><text x="349" y="204" class="combo hold">toggle</text>
 </g>
 <g class="combo combopos-1">
 <path d="M575,192 l-34,84" class="combo"/>
 <path d="M575,192 l34,-84" class="combo"/>
 <rect rx="6" ry="6" x="561" y="180" width="28" height="26" class="combo"/>
-<a href="#TPSet">
-<text x="575" y="192" class="combo tap layer-activator">TPSet</text>
+<a href="#TP_Set">
+<text x="575" y="192" class="combo tap layer-activator">TP_Set</text>
 </a><text x="575" y="204" class="combo hold">toggle</text>
 </g>
 <g class="combo combopos-2">
@@ -2921,15 +2921,15 @@ rect.held, rect.combo.held {
 <g transform="translate(28, 112)" class="key keypos-13">
 <rect rx="6" ry="6" x="-26" y="-26" width="52" height="52" class="key side"/>
 <rect rx="4" ry="4" x="-20" y="-24" width="40" height="40" class="key"/>
-<a href="#TPSet">
-<text x="0" y="-4" class="key tap layer-activator">TPSet</text>
+<a href="#TP_Set">
+<text x="0" y="-4" class="key tap layer-activator">TP_Set</text>
 </a><text x="0" y="24" class="key hold">toggle</text>
 </g>
 <g transform="translate(84, 112)" class="key keypos-14">
 <rect rx="6" ry="6" x="-26" y="-26" width="52" height="52" class="key side"/>
 <rect rx="4" ry="4" x="-20" y="-24" width="40" height="40" class="key"/>
-<a href="#TPSet">
-<text x="0" y="-4" class="key tap layer-activator">TPSet</text>
+<a href="#TP_Set">
+<text x="0" y="-4" class="key tap layer-activator">TP_Set</text>
 </a><text x="0" y="24" class="key hold">toggle</text>
 </g>
 <g transform="translate(140, 91)" class="key trans keypos-15">
@@ -2980,15 +2980,15 @@ rect.held, rect.combo.held {
 <g transform="translate(840, 112)" class="key keypos-24">
 <rect rx="6" ry="6" x="-26" y="-26" width="52" height="52" class="key side"/>
 <rect rx="4" ry="4" x="-20" y="-24" width="40" height="40" class="key"/>
-<a href="#TPSet">
-<text x="0" y="-4" class="key tap layer-activator">TPSet</text>
+<a href="#TP_Set">
+<text x="0" y="-4" class="key tap layer-activator">TP_Set</text>
 </a><text x="0" y="24" class="key hold">toggle</text>
 </g>
 <g transform="translate(896, 112)" class="key keypos-25">
 <rect rx="6" ry="6" x="-26" y="-26" width="52" height="52" class="key side"/>
 <rect rx="4" ry="4" x="-20" y="-24" width="40" height="40" class="key"/>
-<a href="#TPSet">
-<text x="0" y="-4" class="key tap layer-activator">TPSet</text>
+<a href="#TP_Set">
+<text x="0" y="-4" class="key tap layer-activator">TP_Set</text>
 </a><text x="0" y="24" class="key hold">toggle</text>
 </g>
 <g transform="translate(28, 168)" class="key trans keypos-26">
@@ -3185,16 +3185,16 @@ rect.held, rect.combo.held {
 <path d="M349,192 l34,84" class="combo"/>
 <path d="M349,192 l-34,-84" class="combo"/>
 <rect rx="6" ry="6" x="335" y="180" width="28" height="26" class="combo"/>
-<a href="#TPSet">
-<text x="349" y="192" class="combo tap layer-activator">TPSet</text>
+<a href="#TP_Set">
+<text x="349" y="192" class="combo tap layer-activator">TP_Set</text>
 </a><text x="349" y="204" class="combo hold">toggle</text>
 </g>
 <g class="combo combopos-1">
 <path d="M575,192 l-34,84" class="combo"/>
 <path d="M575,192 l34,-84" class="combo"/>
 <rect rx="6" ry="6" x="561" y="180" width="28" height="26" class="combo"/>
-<a href="#TPSet">
-<text x="575" y="192" class="combo tap layer-activator">TPSet</text>
+<a href="#TP_Set">
+<text x="575" y="192" class="combo tap layer-activator">TP_Set</text>
 </a><text x="575" y="204" class="combo hold">toggle</text>
 </g>
 <g class="combo combopos-2">
@@ -3258,8 +3258,8 @@ rect.held, rect.combo.held {
 </g>
 </g>
 </g>
-<g transform="translate(40, 2718)" class="layer-TPSet">
-<text x="0" y="28" class="label" id="TPSet">TPSet:</text>
+<g transform="translate(40, 2718)" class="layer-TP_Set">
+<text x="0" y="28" class="label" id="TP_Set">TP_Set:</text>
 <g transform="translate(0, 56)">
 <g transform="translate(28, 56)" class="key none keypos-0">
 <rect rx="6" ry="6" x="-26" y="-26" width="52" height="52" class="key none side"/>
@@ -3329,15 +3329,15 @@ rect.held, rect.combo.held {
 <g transform="translate(28, 112)" class="key keypos-13">
 <rect rx="6" ry="6" x="-26" y="-26" width="52" height="52" class="key side"/>
 <rect rx="4" ry="4" x="-20" y="-24" width="40" height="40" class="key"/>
-<a href="#TPSet">
-<text x="0" y="-4" class="key tap layer-activator">TPSet</text>
+<a href="#TP_Set">
+<text x="0" y="-4" class="key tap layer-activator">TP_Set</text>
 </a><text x="0" y="24" class="key hold">toggle</text>
 </g>
 <g transform="translate(84, 112)" class="key keypos-14">
 <rect rx="6" ry="6" x="-26" y="-26" width="52" height="52" class="key side"/>
 <rect rx="4" ry="4" x="-20" y="-24" width="40" height="40" class="key"/>
-<a href="#TPSet">
-<text x="0" y="-4" class="key tap layer-activator">TPSet</text>
+<a href="#TP_Set">
+<text x="0" y="-4" class="key tap layer-activator">TP_Set</text>
 </a><text x="0" y="24" class="key hold">toggle</text>
 </g>
 <g transform="translate(140, 91)" class="key none keypos-15">
@@ -3400,15 +3400,15 @@ rect.held, rect.combo.held {
 <g transform="translate(840, 112)" class="key keypos-24">
 <rect rx="6" ry="6" x="-26" y="-26" width="52" height="52" class="key side"/>
 <rect rx="4" ry="4" x="-20" y="-24" width="40" height="40" class="key"/>
-<a href="#TPSet">
-<text x="0" y="-4" class="key tap layer-activator">TPSet</text>
+<a href="#TP_Set">
+<text x="0" y="-4" class="key tap layer-activator">TP_Set</text>
 </a><text x="0" y="24" class="key hold">toggle</text>
 </g>
 <g transform="translate(896, 112)" class="key keypos-25">
 <rect rx="6" ry="6" x="-26" y="-26" width="52" height="52" class="key side"/>
 <rect rx="4" ry="4" x="-20" y="-24" width="40" height="40" class="key"/>
-<a href="#TPSet">
-<text x="0" y="-4" class="key tap layer-activator">TPSet</text>
+<a href="#TP_Set">
+<text x="0" y="-4" class="key tap layer-activator">TP_Set</text>
 </a><text x="0" y="24" class="key hold">toggle</text>
 </g>
 <g transform="translate(28, 168)" class="key keypos-26">
@@ -3641,16 +3641,16 @@ rect.held, rect.combo.held {
 <path d="M349,192 l34,84" class="combo"/>
 <path d="M349,192 l-34,-84" class="combo"/>
 <rect rx="6" ry="6" x="335" y="180" width="28" height="26" class="combo"/>
-<a href="#TPSet">
-<text x="349" y="192" class="combo tap layer-activator">TPSet</text>
+<a href="#TP_Set">
+<text x="349" y="192" class="combo tap layer-activator">TP_Set</text>
 </a><text x="349" y="204" class="combo hold">toggle</text>
 </g>
 <g class="combo combopos-1">
 <path d="M575,192 l-34,84" class="combo"/>
 <path d="M575,192 l34,-84" class="combo"/>
 <rect rx="6" ry="6" x="561" y="180" width="28" height="26" class="combo"/>
-<a href="#TPSet">
-<text x="575" y="192" class="combo tap layer-activator">TPSet</text>
+<a href="#TP_Set">
+<text x="575" y="192" class="combo tap layer-activator">TP_Set</text>
 </a><text x="575" y="204" class="combo hold">toggle</text>
 </g>
 <g class="combo combopos-2">
