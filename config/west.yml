@@ -15,24 +15,21 @@ manifest:
     - name: badjeff
       url-base: https://github.com/badjeff
   projects:
-#    - name: eyelash_sofle
-#      url: https://github.com/a741725193/zmk-sofle
-#      revision: refactor
-#    - name: mario-peripheral-animation
-#      remote: gpeye
-#      revision: main 
+    - name: eyelash_sofle
+      url: https://github.com/a741725193/zmk-sofle
+      revision: refactor
+    - name: mario-peripheral-animation
+      remote: gpeye
+      revision: main 
     - name: zmk
       remote: zmkfirmware
       revision: main
-      import: app/west.yml
-#    - name: zmk
 #      remote: badjeff
 #      revision: main
 #      import: app/west.yml
-#    - name: zmk
 #      remote: infused-kim
 #      revision: pr-testing/mouse_ps2_module_base
-#      import: app/west.yml
+      import: app/west.yml
     - name: nice-view-gem
       remote: m165437
       revision: main
