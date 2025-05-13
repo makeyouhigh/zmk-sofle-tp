@@ -22,13 +22,13 @@ manifest:
       remote: gpeye
       revision: main 
     - name: zmk
-#      remote: zmkfirmware
-#      revision: main
+      remote: zmkfirmware
+      revision: main
 #      remote: badjeff
 #      revision: main
 #      import: app/west.yml
-      remote: infused-kim
-      revision: pr-testing/mouse_ps2_module_base
+#      remote: infused-kim
+#      revision: pr-testing/mouse_ps2_module_base
       import: app/west.yml
     - name: nice-view-gem
       remote: m165437
