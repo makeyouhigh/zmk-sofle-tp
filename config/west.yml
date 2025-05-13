@@ -21,14 +21,14 @@ manifest:
 #    - name: mario-peripheral-animation
 #      remote: gpeye
 #      revision: main 
-#    - name: zmk
-#      remote: zmkfirmware
-#      revision: main
-#      import: app/west.yml
     - name: zmk
-      remote: badjeff
+      remote: zmkfirmware
       revision: main
       import: app/west.yml
+#    - name: zmk
+#      remote: badjeff
+#      revision: main
+#      import: app/west.yml
     - name: nice-view-gem
       remote: m165437
       revision: main
