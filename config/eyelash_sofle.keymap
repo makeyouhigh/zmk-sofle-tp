@@ -16,7 +16,7 @@
 #define MOUSE_R 3
 #define SYSTEM 4
 #define MouseKeys 5
-#define MouseTP 6
+#define MOUSE_TP 6
 #define TPSet 7
 
 // trackpoint setting start
