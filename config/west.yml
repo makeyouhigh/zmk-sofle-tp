@@ -22,11 +22,10 @@ manifest:
       remote: gpeye
       revision: main 
     - name: zmk
-#      remote: zmkfirmware
-#      revision: main
-      remote: badjeff
+      remote: zmkfirmware
       revision: main
-#      import: app/west.yml
+#      remote: badjeff
+#      revision: main
 #      remote: infused-kim
 #      revision: pr-testing/mouse_ps2_module_base
       import: app/west.yml
