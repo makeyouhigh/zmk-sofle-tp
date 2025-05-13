@@ -23,28 +23,28 @@
 
 #define HAS_MOUSE_KEYS
 #define HAS_MOUSE_TP
-#include "include/mouse_tp.dtsi" // dh
+// #include "include/mouse_tp.dtsi" // dh
 
 #ifdef HAS_MOUSE_KEYS
   #include <dt-bindings/zmk/mouse.h>
   #include <behaviors/mouse_keys.dtsi>
 #endif  // HAS_MOUSE_KEYS
 
-// #ifdef HAS_MOUSE_TP
-//  #include "include/mouse_tp.dtsi"
-//#endif  // HAS_MOUSE_TP
-
-#ifdef HAS_MOUSE_KEYS
-  #define U_THUMB_INNER &mo 5
-#else
-  #define U_THUMB_INNER &none
-#endif  // HAS_MOUSE_KEYS
-
 #ifdef HAS_MOUSE_TP
-  #define U_TOG_TP_SET &tog 7
-#else
-  #define U_TOG_TP_SET &none
+  #include "include/mouse_tp.dtsi"
 #endif  // HAS_MOUSE_TP
+
+//#ifdef HAS_MOUSE_KEYS
+//  #define U_THUMB_INNER &mo 5
+//#else
+//  #define U_THUMB_INNER &none
+//#endif  // HAS_MOUSE_KEYS
+
+//#ifdef HAS_MOUSE_TP
+//  #define U_TOG_TP_SET &tog 7
+//#else
+//  #define U_TOG_TP_SET &none
+//#endif  // HAS_MOUSE_TP
 
 // trackpoint setting end
 
@@ -257,7 +257,6 @@ U_TOG_TP_SET             U_TOG_TP_SET             &none                    &mmv 
 &none                    &none                    &none                    &none                    &msc SCRL_DOWN           &none                    &none                    &none                    &msc SCRL_DOWN           &none                    &none                    &none                     &none
 &none                    &none                    &none                    &mkp MCLK                &mkp LCLK                &mkp RCLK                &none                    &mkp MCLK                &mkp LCLK                &mkp RCLK                &none                    &none
 			>;
-            label = "MouseKeys";
 		};
 
 #endif
@@ -273,7 +272,6 @@ U_TOG_TP_SET             U_TOG_TP_SET             &trans                   &tran
 &trans                   &trans                   &trans                   &trans                   &msc SCRL_DOWN           &trans                   &none                    &trans                   &trans                   &trans                   &trans                   &trans                   &trans
 &none                    &none                    &none                    &mkp MCLK                &mkp LCLK                &mkp RCLK                &none                    &mkp MCLK                &mkp LCLK                &mkp RCLK                &none                    &none
 			>;
-            label = "MOUSE_TP";
 		};
 
 		TPSet {
@@ -286,7 +284,6 @@ U_MSS_RESET              U_MSS_RESET              &none                    U_MSS
 U_MSS_LOG                U_MSS_LOG                &none                    U_MSS_TP_V6_D            U_MSS_TP_V6_I            &none                    &none                    U_MSS_TP_V6_D            U_MSS_TP_V6_I            &none                    U_MSS_LOG                U_MSS_LOG                &none
 &none                    &trans                   &none                    &mkp MCLK                &mkp LCLK                &mkp RCLK                &none                    &mkp LCLK                &mkp RCLK                &mkp MCLK                &none                    &none
 			>;
-            label = "TP_Set";
 		};
 
 #endif
