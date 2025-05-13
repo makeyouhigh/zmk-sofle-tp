@@ -34,17 +34,17 @@
   #include "include/mouse_tp.dtsi"
 #endif  // HAS_MOUSE_TP
 
-//#ifdef HAS_MOUSE_KEYS
-//  #define U_THUMB_INNER &mo 5
-//#else
-//  #define U_THUMB_INNER &none
-//#endif  // HAS_MOUSE_KEYS
+#ifdef HAS_MOUSE_KEYS
+  #define U_THUMB_INNER &mo 5
+#else
+  #define U_THUMB_INNER &none
+#endif  // HAS_MOUSE_KEYS
 
-//#ifdef HAS_MOUSE_TP
-//  #define U_TOG_TP_SET &tog 7
-//#else
-//  #define U_TOG_TP_SET &none
-//#endif  // HAS_MOUSE_TP
+#ifdef HAS_MOUSE_TP
+  #define U_TOG_TP_SET &tog 7
+#else
+  #define U_TOG_TP_SET &none
+#endif  // HAS_MOUSE_TP
 
 // trackpoint setting end
 
