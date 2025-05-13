@@ -62,7 +62,7 @@ layers:
   - {t: '$$mdi:keyboard-return$$', type: enter}
   - {t: '$$mdi:keyboard-return$$', h: SYSTEM}
   - {t: '$$mdi:keyboard-space$$', h: MouseKeys}
-  - {t: '$$mdi:backspace$$', h: MouseTP}
+  - {t: '$$mdi:backspace$$', h: MOUSE_TP}
   - $$mdi:apple-keyboard-option$$
   - $$mdi:apple-keyboard-control$$
   ARROW_R:
@@ -390,7 +390,7 @@ layers:
   - $$mdi:mouse-right-click-outline$$
   - {t: '$$mdi:minus-circle-outline$$', type: none}
   - {t: '$$mdi:minus-circle-outline$$', type: none}
-  MouseTP:
+  MOUSE_TP:
   - {t: '$$mdi:minus-circle-outline$$', type: none}
   - {t: '$$mdi:minus-circle-outline$$', type: none}
   - {t: '$$mdi:minus-circle-outline$$', type: none}
