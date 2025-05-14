@@ -132,6 +132,16 @@
             bindings = <&kp LA(LC(V))>;
             key-positions = <43 44>;
         };
+
+        LRESET {
+            bindings = <&sys_reset>;
+            key-positions = <53 54 55 57 56>;
+        };
+
+        RRESET {
+            bindings = <&sys_reset>;
+            key-positions = <59 60 61 62 63>;
+        };
     };
 
     keymap {
