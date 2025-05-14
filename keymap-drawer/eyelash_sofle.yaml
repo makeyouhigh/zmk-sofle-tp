@@ -551,3 +551,7 @@ combos:
   k: Ctl+V
 - p: [43, 44]
   k: Alt+Ctl+V
+- p: [53, 54, 55, 57, 56]
+  k: {t: '$$mdi:backup-restore$$', type: bootloader}
+- p: [59, 60, 61, 62, 63]
+  k: {t: '$$mdi:backup-restore$$', type: bootloader}
