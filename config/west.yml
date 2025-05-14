@@ -32,7 +32,7 @@ manifest:
     - name: nice-view-gem
 #      remote: m165437
       remote: makeyouhigh
-      revision: main
+      revision: bothbattery
     # zmk module for PS/2 mouse / TP driver
     - name: kb_zmk_ps2_mouse_trackpoint_driver
       remote: infused-kim
