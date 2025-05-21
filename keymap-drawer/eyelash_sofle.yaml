@@ -525,20 +525,10 @@ combos:
   k: {t: SYSTEM, h: toggle}
 - p: [59, 20]
   k: {t: SYSTEM, h: toggle}
-- p: [18, 31]
-  k: $$mdi:apple-keyboard-option$$
 - p: [20, 33]
   k: $$mdi:apple-keyboard-option$$
 - p: [33, 46]
   k: $$mdi:apple-keyboard-option$$
-- p: [31, 44]
-  k: $$mdi:apple-keyboard-option$$
-- p: [1, 14]
-  k: {h: '5', s: '$$mdi:bluetooth-connect$$'}
-- p: [2, 15]
-  k: {h: '4', s: '$$mdi:bluetooth-connect$$'}
-- p: [3, 16]
-  k: {h: '3', s: '$$mdi:bluetooth-connect$$'}
 - p: [17, 4]
   k: {h: '2', s: '$$mdi:bluetooth-connect$$'}
 - p: [5, 18]
@@ -555,3 +545,5 @@ combos:
   k: {t: '$$mdi:backup-restore$$', type: bootloader}
 - p: [59, 60, 61, 62, 63]
   k: {t: '$$mdi:backup-restore$$', type: bootloader}
+- p: [46, 47]
+  k: $$mdi:apple-keyboard-option$$
