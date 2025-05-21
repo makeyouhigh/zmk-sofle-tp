@@ -122,6 +122,16 @@
             bindings = <&kp RIGHT_ALT>;
             key-positions = <46 47>;
         };
+
+        taskmgr {
+            bindings = <&kp LC(LS(ESCAPE))>;
+            key-positions = <39 26 0>;
+        };
+
+        altf4 {
+            bindings = <&kp LA(F4)>;
+            key-positions = <4 5>;
+        };
     };
 
     keymap {
