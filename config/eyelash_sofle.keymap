@@ -68,11 +68,6 @@
             key-positions = <59 20>;
         };
 
-        HANGUL_1 {
-            bindings = <&kp RIGHT_ALT>;
-            key-positions = <18 31>;
-        };
-
         HANGUL_2 {
             bindings = <&kp RIGHT_ALT>;
             key-positions = <20 33>;
@@ -81,26 +76,6 @@
         HANGUL_3 {
             bindings = <&kp RIGHT_ALT>;
             key-positions = <33 46>;
-        };
-
-        HANGUL_4 {
-            bindings = <&kp RIGHT_ALT>;
-            key-positions = <31 44>;
-        };
-
-        BT_SEL_4 {
-            bindings = <&bt BT_SEL 4>;
-            key-positions = <1 14>;
-        };
-
-        BT_SEL_3 {
-            bindings = <&bt BT_SEL 3>;
-            key-positions = <2 15>;
-        };
-
-        BT_SEL_2 {
-            bindings = <&bt BT_SEL 2>;
-            key-positions = <3 16>;
         };
 
         BT_SEL_1 {
@@ -141,6 +116,11 @@
         RRESET {
             bindings = <&sys_reset>;
             key-positions = <59 60 61 62 63>;
+        };
+
+        HANGUL_1 {
+            bindings = <&kp RIGHT_ALT>;
+            key-positions = <46 47>;
         };
     };
 
