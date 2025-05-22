@@ -80,12 +80,12 @@
 
         BT_SEL_1 {
             bindings = <&bt BT_SEL 1>;
-            key-positions = <17 4>;
+            key-positions = <8 9>;
         };
 
         BT_SEL_0 {
             bindings = <&bt BT_SEL 0>;
-            key-positions = <5 18>;
+            key-positions = <7 8>;
         };
 
         COMBO_CUT {
@@ -130,7 +130,17 @@
 
         altf4 {
             bindings = <&kp LA(F4)>;
-            key-positions = <4 5>;
+            key-positions = <4 17>;
+        };
+
+        F2COMBO {
+            bindings = <&kp F2>;
+            key-positions = <2 15>;
+        };
+
+        F5COMBO {
+            bindings = <&kp F5>;
+            key-positions = <5 18>;
         };
     };
 
