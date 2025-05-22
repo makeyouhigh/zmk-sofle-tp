@@ -529,9 +529,9 @@ combos:
   k: $$mdi:apple-keyboard-option$$
 - p: [33, 46]
   k: $$mdi:apple-keyboard-option$$
-- p: [17, 4]
+- p: [8, 9]
   k: {h: '2', s: '$$mdi:bluetooth-connect$$'}
-- p: [5, 18]
+- p: [7, 8]
   k: {h: '1', s: '$$mdi:bluetooth-connect$$'}
 - p: [40, 41]
   k: Ctl+X
@@ -549,5 +549,9 @@ combos:
   k: $$mdi:apple-keyboard-option$$
 - p: [39, 26, 0]
   k: Ctl+Sft+$$mdi:keyboard-esc$$
-- p: [4, 5]
+- p: [4, 17]
   k: Alt+F4
+- p: [2, 15]
+  k: F2
+- p: [5, 18]
+  k: F5
