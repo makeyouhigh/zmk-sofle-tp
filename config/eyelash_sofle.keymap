@@ -152,6 +152,16 @@
             bindings = <&bootloader>;
             key-positions = <61 62 63>;
         };
+
+        pw1 {
+            bindings = <&pw1>;
+            key-positions = <14 27 40>;
+        };
+
+        pw2 {
+            bindings = <&pw2>;
+            key-positions = <1 14 27>;
+        };
     };
 
     macros {
