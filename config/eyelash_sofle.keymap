@@ -154,6 +154,36 @@
         };
     };
 
+    macros {
+        pw1: pw1 {
+            compatible = "zmk,behavior-macro";
+            #binding-cells = <0>;
+            bindings = <&kp C &kp H &kp L &kp E &kp O &kp N1 &kp Q &kp A &kp Z &kp EXCL &kp LS(Q) &kp LS(A) &kp LS(Z)>;
+            label = "PW1";
+        };
+
+        pw2: pw2 {
+            compatible = "zmk,behavior-macro";
+            #binding-cells = <0>;
+            bindings = <&kp Z &kp O &kp Q &kp J &kp S &kp N1 &kp Q &kp A &kp Z &kp EXCL &kp LS(Q) &kp LS(A) &kp LS(Z)>;
+            label = "PW2";
+        };
+
+        gmm: gmm {
+            compatible = "zmk,behavior-macro";
+            #binding-cells = <0>;
+            bindings = <&kp M &kp A &kp K &kp E &kp Y &kp O &kp U &kp H &kp I &kp G &kp H &kp N0 &kp N2 &kp N1 &kp N6 &kp AT &kp G &kp M &kp A &kp I &kp L &kp DOT &kp C &kp O &kp M>;
+            label = "GMM";
+        };
+
+        gmd: gmd {
+            compatible = "zmk,behavior-macro";
+            #binding-cells = <0>;
+            bindings = <&kp D &kp A &kp E &kp H &kp Y &kp U &kp N &kp DOT &kp C &kp H &kp O &kp I &kp DOT &kp N2 &kp N1 &kp N6 &kp AT &kp G &kp M &kp A &kp I &kp L &kp DOT &kp C &kp O &kp M>;
+            label = "GMD";
+        };
+    };
+
     keymap {
         compatible = "zmk,keymap";
 
