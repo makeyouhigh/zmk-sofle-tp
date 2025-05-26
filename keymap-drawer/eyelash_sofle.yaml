@@ -559,3 +559,7 @@ combos:
   k: $$mdi:progress-download$$
 - p: [61, 62, 63]
   k: $$mdi:progress-download$$
+- p: [14, 27, 40]
+  k: '&pw1'
+- p: [1, 14, 27]
+  k: '&pw2'
