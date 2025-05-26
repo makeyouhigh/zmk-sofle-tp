@@ -142,6 +142,16 @@
             bindings = <&kp F5>;
             key-positions = <5 18>;
         };
+
+        Lbootloader {
+            bindings = <&bootloader>;
+            key-positions = <53 54 55>;
+        };
+
+        Rbootloader {
+            bindings = <&bootloader>;
+            key-positions = <61 62 63>;
+        };
     };
 
     keymap {
