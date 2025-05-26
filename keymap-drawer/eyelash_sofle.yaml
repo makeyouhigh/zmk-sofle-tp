@@ -555,3 +555,7 @@ combos:
   k: F2
 - p: [5, 18]
   k: F5
+- p: [53, 54, 55]
+  k: $$mdi:progress-download$$
+- p: [61, 62, 63]
+  k: $$mdi:progress-download$$
