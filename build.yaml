@@ -15,9 +15,11 @@ include:
 #    shield: settings_reset
   - board: eyelash_sofle_left
     shield: nice_view_gem
+    snippet: studio-rpc-usb-uart
     cmake-args: -DCONFIG_ZMK_USB_LOGGING=y
 #    snippet: zmk-usb-logging
   - board: eyelash_sofle_right
     shield: nice_view_gem
+    snippet: studio-rpc-usb-uart
     cmake-args: -DCONFIG_ZMK_USB_LOGGING=y
 #    snippet: zmk-usb-logging
