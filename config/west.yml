@@ -31,7 +31,6 @@ manifest:
 #      revision: main
 #      remote: infused-kim
 #      revision: pr-testing/mouse_ps2_module_base
-      import: app/west.yml
     - name: nice-view-gem
       remote: m165437
 #      remote: makeyouhigh
