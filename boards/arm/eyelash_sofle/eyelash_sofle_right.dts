@@ -5,6 +5,7 @@
 *
 */
 #include "eyelash_sofle.dtsi"
+#include <dt-bindings/pinctrl/nrf-pinctrl.h>
 
 &kscan0 {
      col-gpios
