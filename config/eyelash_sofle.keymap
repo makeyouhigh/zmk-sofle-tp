@@ -132,9 +132,3 @@
 #endif
     };
 };
-
-/* 다른 파일 거치지 않고 키맵에서 직접 강제 활성화 */
-&uart0 { status = "okay"; };
-&uart_ps2 { status = "okay"; };
-&mouse_ps2 { status = "okay"; };
-&mouse_ps2_input_listener { status = "okay"; };
