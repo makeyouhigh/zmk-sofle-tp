@@ -30,9 +30,6 @@
  * to edit the entire keymap file manually every time.
  */
 
-#define MOUSE_PS2_DRIVER_UART
-#define MOUSE_PS2_DT_PRESENT
-
 #define HAS_MOUSE_KEYS
 #define HAS_MOUSE_TP
 
