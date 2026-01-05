@@ -109,6 +109,7 @@
             >;
             sensor-bindings = <&scroll_encoder>;
         };
+#endif
 #ifdef HAS_MOUSE_TP
         MOUSE_TP {
             bindings = <
@@ -119,7 +120,6 @@
 &trans  &trans  &trans  &trans  &trans  &trans    &trans  &trans  &trans  &trans  &trans  &trans
             >;
         };
-#ifdef HAS_MOUSE_TP
         MOUSE_TP_SET {
             bindings = <
 &trans  &trans  &trans  &trans  &trans  &trans    &trans  &trans  &trans  &trans  &trans  &trans  &trans
@@ -129,5 +129,6 @@
 &trans  &trans  &trans  &trans  &trans  &trans    &trans  &trans  &trans  &trans  &trans  &trans
             >;
         };
+#endif
     };
 };
