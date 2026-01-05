@@ -28,12 +28,12 @@
 #define MOUSE_PS2_PIN_SCL_PRO_MICRO <&gpio1 8 GPIO_ACTIVE_HIGH>
 #define MOUSE_PS2_PIN_SDA_PRO_MICRO <&gpio1 7 GPIO_ACTIVE_HIGH>
 #define MOUSE_PS2_PIN_RST_PRO_MICRO <&gpio1 4 GPIO_ACTIVE_HIGH>  // Optional, change/remove if not used
-#define MOUSE_PS2_PIN_SDA_PINCTRL <NRF_PSEL(UART_RX, 1, 7)>
+#define MOUSE_PS2_PIN_SDA_PINCTRL NRF_PSEL(UART_RX, 1, 7)
 
 #define MOUSE_PS2_UART_BAUD_RATE <14400>
 
-#define MOUSE_PS2_PIN_UNEXPOSED_TX <NRF_PSEL(UART_TX, 0, 27)>
-#define MOUSE_PS2_PIN_UNEXPOSED_RX <NRF_PSEL(UART_RX, 0, 28)>
+#define MOUSE_PS2_PIN_UNEXPOSED_TX NRF_PSEL(UART_TX, 0, 27)
+#define MOUSE_PS2_PIN_UNEXPOSED_RX NRF_PSEL(UART_RX, 0, 28)
 
 // All other priorities should be two levels lower than their defaults
 // (which is usually 1 and should be demoted to 3)
@@ -121,16 +121,14 @@
 	// For `UART_RX`, set the PS/2 SDA pin number
 	uart0_ps2_default: uart0_ps2_default {
 		group1 {
-			psels = MOUSE_PS2_PIN_UNEXPOSED_TX,
-					MOUSE_PS2_PIN_SDA_PINCTRL;
+			psels = <MOUSE_PS2_PIN_UNEXPOSED_TX MOUSE_PS2_PIN_SDA_PINCTRL>;
 		};
 	};
 
 	// Set this to the same pins as uart0_ps2_default
 	uart0_ps2_sleep: uart0_ps2_sleep {
 		group1 {
-			psels = MOUSE_PS2_PIN_UNEXPOSED_TX,
-					MOUSE_PS2_PIN_SDA_PINCTRL;
+			psels = <MOUSE_PS2_PIN_UNEXPOSED_TX MOUSE_PS2_PIN_SDA_PINCTRL>;
 			low-power-enable;
 		};
 	};
@@ -145,8 +143,7 @@
 	// Then it configures the GPIO controller to use the SCL and SDA pins
 	uart0_ps2_off: uart0_ps2_off {
 		group1 {
-			psels = MOUSE_PS2_PIN_UNEXPOSED_TX,
-					MOUSE_PS2_PIN_UNEXPOSED_RX;
+			psels = <MOUSE_PS2_PIN_UNEXPOSED_TX MOUSE_PS2_PIN_UNEXPOSED_RX>;
 		};
 	};
 };
