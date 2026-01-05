@@ -26,10 +26,10 @@
 #define MOUSE_PS2_DRIVER_UART
 #define MOUSE_PS2_DT_PRESENT
 
-#define MOUSE_PS2_PIN_SCL_PRO_MICRO <&gpio1 8 GPIO_ACTIVE_HIGH>
-#define MOUSE_PS2_PIN_SDA_PRO_MICRO <&gpio1 7 GPIO_ACTIVE_HIGH>
+#define MOUSE_PS2_PIN_SCL_PRO_MICRO <&gpio1 7 GPIO_ACTIVE_HIGH>
+#define MOUSE_PS2_PIN_SDA_PRO_MICRO <&gpio1 8 GPIO_ACTIVE_HIGH>
 #define MOUSE_PS2_PIN_RST_PRO_MICRO <&gpio1 4 GPIO_ACTIVE_HIGH>  // Optional, change/remove if not used
-#define MOUSE_PS2_PIN_SDA_PINCTRL NRF_PSEL(UART_RX, 1, 7)
+#define MOUSE_PS2_PIN_SDA_PINCTRL NRF_PSEL(UART_RX, 1, 8)
 
 #define MOUSE_PS2_UART_BAUD_RATE <14400>
 
@@ -153,7 +153,7 @@
 #ifdef MOUSE_PS2_DRIVER_UART
 
     &uart0 {
-        status = "disabled";
+        status = "okay";
         compatible = "nordic,nrf-uarte";
 
         current-speed = MOUSE_PS2_UART_BAUD_RATE;
@@ -163,7 +163,7 @@
         pinctrl-names = "default", "sleep";
 
         uart_ps2: uart_ps2 {
-            status="disabled";
+            status="okay";
             compatible = "uart-ps2";
             scl-gpios = MOUSE_PS2_PIN_SCL_PRO_MICRO;
             sda-gpios = MOUSE_PS2_PIN_SDA_PRO_MICRO;
@@ -187,7 +187,7 @@
 
 / {
     mouse_ps2: mouse_ps2 {
-		status = "disabled";
+		status = "okay";
         compatible = "zmk,input-mouse-ps2";
 
 #ifdef MOUSE_PS2_DRIVER_UART
