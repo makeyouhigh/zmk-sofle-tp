@@ -16,7 +16,7 @@
 	model = "eyelash_sofle";
 	compatible = "eyelashperipherals,eyelash_sofle";
 
-	chosen {
+	chosen 
 		zephyr,code-partition = &code_partition;
         	zephyr,sram = &sram0;
         	zephyr,flash = &flash0;
@@ -26,7 +26,6 @@
         	zmk,underglow = &led_strip;
         	zmk,physical-layout = &eyelash_sofle_layout;
         	zmk,backlight = &backlight;
-		zephyr,console = &cdc_acm_uart;
 	};
 	left_encoder: encoder_left {
 		compatible = "alps,ec11";
