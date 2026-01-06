@@ -20,12 +20,12 @@
 		zephyr,code-partition = &code_partition;
         	zephyr,sram = &sram0;
         	zephyr,flash = &flash0;
-			zephyr,console = &cdc_acm_uart;
         	zmk,kscan = &kscan0;
         	zmk,battery = &vbatt;
         	zmk,underglow = &led_strip;
         	zmk,physical-layout = &eyelash_sofle_layout;
         	zmk,backlight = &backlight;
+		zephyr,console = &cdc_acm_uart;
 	};
 	left_encoder: encoder_left {
 		compatible = "alps,ec11";
@@ -116,7 +116,6 @@ zephyr_udc0: &usbd {
     cdc_acm_uart: cdc_acm_uart {
 		compatible = "zephyr,cdc-acm-uart";
 		label = "CDC_ACM_0";
-		status = "okay";
 	};
 };
 
@@ -231,5 +230,3 @@ nice_view_spi: &spi0 {
         color-mapping = <LED_COLOR_ID_GREEN LED_COLOR_ID_RED LED_COLOR_ID_BLUE>;
     };
 };
-
-
