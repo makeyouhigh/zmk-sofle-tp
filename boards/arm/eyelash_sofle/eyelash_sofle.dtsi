@@ -12,6 +12,7 @@
 
 #include "eyelash_sofle-layouts.dtsi"
 #define MOUSE_PS2_DT_PRESENT
+#define MOUSE_PS2_DRIVER_UART
 
 / {
 	model = "eyelash_sofle";
